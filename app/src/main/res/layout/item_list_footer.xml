@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <ProgressBar
+        android:id="@+id/footer_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/dark_gray"
+        android:indeterminateTintMode="src_atop"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/footer_txt_error"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Tap to retry." />
+
+</RelativeLayout>
